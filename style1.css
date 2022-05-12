@@ -1,0 +1,132 @@
+* {
+	box-sizing: border-box;
+}
+.headword {
+	text-align: center;
+}
+.citycol {
+	margin-left: 75px;
+	margin-top: 35px;
+}
+.cityicon {
+	width: 200px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 20px;
+	text-align: center;
+}
+.addcityicon {
+	width: 200px;
+	height: 250px;
+	border: 1px solid black;
+	border-radius: 100px;
+	text-align: center;
+}
+.name {
+	margin-left: 75px;
+}
+.days {
+	margin-top: 90px;
+	padding-left: 75px;
+}
+.days button {
+	height: 50%;
+	width: 200px;
+	text-align: center;
+}
+
+.panel {
+	width: 33%;
+}
+
+#panel2{
+	width: 33%;
+	visibility: hidden;
+}
+
+#panel3{
+	width: 34%;
+	visibility: hidden;
+}
+
+.panel ul,
+#panel2 ul,
+#panel3 ul
+ {
+	padding: 0 0 1em 0;
+	margin: 2em 0;
+	border-bottom: 1px #ccc solid
+}
+
+.panel ul li,
+#panel2 ul li,
+#panel3 ul li {
+	color: #ccc;
+	margin: 2.5em 0;
+}
+
+.panel ul h4,
+#panel2 ul h4,
+#panel3 ul h4 {
+	margin: 3em 0;
+}
+
+.city-time,
+.condition,
+.condition2
+.weather {
+	margin: 0 1em;
+}
+
+.city-time h1{
+margin 0;
+margin-bottom: 0.2em;
+font-size: 3em;
+}
+
+.condition,
+.condition2,
+.condition3 {
+	font-size: 2em;
+	margin: 0;
+}
+
+.form {
+	margin-bottom: 3em;
+}
+
+.submit1 {
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+.submit1:hover {
+	background: #fff !important;
+	color: #000;
+}
+
+.search {
+	background: none;
+}
+
+.search:focus {
+	outline: none;
+}
+
+.search::placeholder {
+	color:#ccc;
+}
+
+.city {
+	cursor: pointer;
+}
+
+.city:hover {
+color: #fff;
+}
+
+.container1 {
+	width: 100%;
+  display: flex;
+
+}
